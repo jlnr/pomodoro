@@ -177,7 +177,6 @@
 	}
     
 	[statusItem setImage:image];
-	[statusItem setAlternateImage:alternateImage];
 	
 	[startPomodoro             setEnabled:(state == PomoReadyToStart) || ((state == PomoInBreak) && [self checkDefault:@"canRestartAtBreak"])];
 	[finishPomodoro            setEnabled:(state == PomoTicking)];
@@ -517,17 +516,16 @@
 	statusItem = [[NSStatusBar systemStatusBar] statusItemWithLength:NSVariableStatusItemLength];
 
 	pomodoroImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"pomodoro" ofType:@"png"]];
+    pomodoroImage.template = YES;
 	pomodoroBreakImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"pomodoroBreak" ofType:@"png"]];
+    pomodoroBreakImage.template = YES;
 	pomodoroFreezeImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"pomodoroFreeze" ofType:@"png"]];
-	pomodoroNegativeImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"pomodoro_n" ofType:@"png"]];
-	pomodoroNegativeBreakImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"pomodoroBreak_n" ofType:@"png"]];
-	pomodoroNegativeFreezeImage = [[NSImage alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"pomodoroFreeze_n" ofType:@"png"]];
+    pomodoroFreezeImage.template = YES;
 
 	ringing = [NSSound soundNamed:@"ring.wav"];
 	ringingBreak = [NSSound soundNamed:@"ringBreak.wav"];
 	tick = [NSSound soundNamed:@"tick.wav"];
 	[statusItem setImage:pomodoroImage];
-	[statusItem setAlternateImage:pomodoroNegativeImage];
 		
 	[ringing setVolume:_ringVolume/100.0];
 	[ringingBreak setVolume:_ringBreakVolume/100.0];
