@@ -49,13 +49,13 @@
 	PTHotKey *resumeKey;
 	PTHotKey *quickStatsKey;
 	
-	KeyCombo muteKeyCombo;
-	KeyCombo startKeyCombo;
-	KeyCombo resetKeyCombo;
-	KeyCombo interruptKeyCombo;
-	KeyCombo internalInterruptKeyCombo;
-	KeyCombo resumeKeyCombo;
-	KeyCombo quickStatsKeyCombo;
+	NSDictionary *muteKeyCombo;
+	NSDictionary *startKeyCombo;
+	NSDictionary *resetKeyCombo;
+	NSDictionary *interruptKeyCombo;
+	NSDictionary *internalInterruptKeyCombo;
+	NSDictionary *resumeKeyCombo;
+	NSDictionary *quickStatsKeyCombo;
 }
 
 @property (unsafe_unretained) IBOutlet id delegate;

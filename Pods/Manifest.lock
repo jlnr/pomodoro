@@ -1,0 +1,25 @@
+PODS:
+  - ShortcutRecorder/Core (2.17)
+  - ShortcutRecorder/PTHotKey (2.17):
+    - ShortcutRecorder/Core
+
+DEPENDENCIES:
+  - ShortcutRecorder/Core (from `https://github.com/nrbrook/ShortcutRecorder`, branch `mojave`)
+  - ShortcutRecorder/PTHotKey (from `https://github.com/nrbrook/ShortcutRecorder`, branch `mojave`)
+
+EXTERNAL SOURCES:
+  ShortcutRecorder:
+    :branch: mojave
+    :git: https://github.com/nrbrook/ShortcutRecorder
+
+CHECKOUT OPTIONS:
+  ShortcutRecorder:
+    :commit: 12e7a819211585870f56604f6e6e36a6fa47038d
+    :git: https://github.com/nrbrook/ShortcutRecorder
+
+SPEC CHECKSUMS:
+  ShortcutRecorder: 608a0be79b89604b6e21910b5b64108b0fb2655f
+
+PODFILE CHECKSUM: a7af2df36f7a577035fd89a32954bc957b2e8f3e
+
+COCOAPODS: 1.6.0.beta.2

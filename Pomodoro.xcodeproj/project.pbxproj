@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16656CAF1E77972A4E68D0BC /* Pods_Pomodoro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28CA33D438E73E1E632BFA5D /* Pods_Pomodoro.framework */; };
 		6978DAF6134406F8004B9ABB /* BGHUDAppKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 698F4733133B72BC00311E34 /* BGHUDAppKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6978DAF7134406FD004B9ABB /* OAuthConsumer.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 698F4734133B72BC00311E34 /* OAuthConsumer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6978DAF813440701004B9ABB /* ShortcutRecorder.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 698F4735133B72BC00311E34 /* ShortcutRecorder.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		698F4620133B5AF900311E34 /* audio.png in Resources */ = {isa = PBXBuildFile; fileRef = 698F45B8133B5AF900311E34 /* audio.png */; };
 		698F4621133B5AF900311E34 /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 698F45B9133B5AF900311E34 /* calendar.png */; };
 		698F4622133B5AF900311E34 /* compile.png in Resources */ = {isa = PBXBuildFile; fileRef = 698F45BA133B5AF900311E34 /* compile.png */; };
@@ -55,17 +54,8 @@
 		698F4656133B5AF900311E34 /* SpeechController.m in Sources */ = {isa = PBXBuildFile; fileRef = 698F4607133B5AF900311E34 /* SpeechController.m */; };
 		698F4657133B5AF900311E34 /* SplashController.m in Sources */ = {isa = PBXBuildFile; fileRef = 698F4609133B5AF900311E34 /* SplashController.m */; };
 		698F4658133B5AF900311E34 /* StatsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 698F460B133B5AF900311E34 /* StatsController.m */; };
-		698F465A133B5AF900311E34 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 698F460F133B5AF900311E34 /* README.txt */; };
-		698F465B133B5AF900311E34 /* ReleaseNotes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 698F4610133B5AF900311E34 /* ReleaseNotes.txt */; };
-		698F46E9133B601500311E34 /* PTHotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 698F46E2133B601500311E34 /* PTHotKey.m */; };
-		698F46EA133B601500311E34 /* PTHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 698F46E4133B601500311E34 /* PTHotKeyCenter.m */; };
-		698F46EB133B601500311E34 /* PTKeyCodeTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 698F46E6133B601500311E34 /* PTKeyCodeTranslator.m */; };
-		698F46EC133B601500311E34 /* PTKeyCombo.m in Sources */ = {isa = PBXBuildFile; fileRef = 698F46E8133B601500311E34 /* PTKeyCombo.m */; };
-		698F46F9133B708700311E34 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 698F46F8133B708700311E34 /* libxml2.dylib */; };
 		698F46FB133B709600311E34 /* CalendarStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698F46FA133B709600311E34 /* CalendarStore.framework */; };
 		698F4736133B72BD00311E34 /* BGHUDAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698F4733133B72BC00311E34 /* BGHUDAppKit.framework */; };
-		698F4737133B72BD00311E34 /* OAuthConsumer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698F4734133B72BC00311E34 /* OAuthConsumer.framework */; };
-		698F4738133B72BD00311E34 /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698F4735133B72BC00311E34 /* ShortcutRecorder.framework */; };
 		698F473A133B72E800311E34 /* Automator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698F4739133B72E800311E34 /* Automator.framework */; };
 		698F473C133B731600311E34 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 698F473B133B731600311E34 /* Carbon.framework */; };
 		698F4747133B7A5B00311E34 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 698F4746133B7A5B00311E34 /* Growl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
@@ -118,41 +108,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		698F4709133B714200311E34 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 698F46FE133B714100311E34 /* ShortcutRecorder.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 939837800DA42965007F53F3;
-			remoteInfo = "ShortcutRecorder.framework - with embedded ibplugin";
-		};
-		698F470B133B714200311E34 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 698F46FE133B714100311E34 /* ShortcutRecorder.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 93983B220DA43C4E007F53F3;
-			remoteInfo = ShortcutRecorderFramework_Tester;
-		};
-		698F470D133B714200311E34 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 698F46FE133B714100311E34 /* ShortcutRecorder.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 342E0104109CCC36009AD8CA;
-			remoteInfo = "ShortcutRecorder.framework - for embedding in ibplugin";
-		};
-		698F470F133B716800311E34 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 698F46FE133B714100311E34 /* ShortcutRecorder.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 342E0208109CCE71009AD8CA;
-			remoteInfo = "Build ShortcutRecorder.framework";
-		};
-		698F4711133B716800311E34 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 698F46FE133B714100311E34 /* ShortcutRecorder.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 342E00EB109CCC36009AD8CA;
-			remoteInfo = "ShortcutRecorder.framework - for embedding in ibplugin";
-		};
 		698F4720133B71C300311E34 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 698F4718133B71C300311E34 /* BGHUDAppKit.xcodeproj */;
@@ -184,15 +139,14 @@
 			dstSubfolderSpec = 10;
 			files = (
 				698F4747133B7A5B00311E34 /* Growl.framework in CopyFiles */,
-				6978DAF813440701004B9ABB /* ShortcutRecorder.framework in CopyFiles */,
 				6978DAF6134406F8004B9ABB /* BGHUDAppKit.framework in CopyFiles */,
-				6978DAF7134406FD004B9ABB /* OAuthConsumer.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		28CA33D438E73E1E632BFA5D /* Pods_Pomodoro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pomodoro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CCECF681396319200A8608F /* it-IT */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "it-IT"; path = "it-IT.lproj/About.xib"; sourceTree = "<group>"; };
 		2CCECF69139631A100A8608F /* it-IT */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "it-IT"; path = "it-IT.lproj/Splash.xib"; sourceTree = "<group>"; };
 		2CCECF6A139631AF00A8608F /* it-IT */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "it-IT"; path = "it-IT.lproj/Stats.xib"; sourceTree = "<group>"; };
@@ -200,6 +154,7 @@
 		2CCECF6C1396324D00A8608F /* it-IT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "it-IT"; path = "it-IT.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		2CCECF6D1396326A00A8608F /* it-IT */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "it-IT"; path = "it-IT.lproj/splash.html"; sourceTree = "<group>"; };
 		2CCECF6E1396327C00A8608F /* it-IT */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "it-IT"; path = "it-IT.lproj/about.html"; sourceTree = "<group>"; };
+		53E31A2A4857348CE58E9B46 /* Pods-Pomodoro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pomodoro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pomodoro/Pods-Pomodoro.debug.xcconfig"; sourceTree = "<group>"; };
 		691E986513769A3E00D2A31E /* it-IT */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "it-IT"; path = "/Users/ugol/Documents/Source/objective/Pomodoro/PomodoroTests/it-IT.lproj/InfoPlist.strings"; sourceTree = "<absolute>"; };
 		698F45B8133B5AF900311E34 /* audio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audio.png; sourceTree = "<group>"; };
 		698F45B9133B5AF900311E34 /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
@@ -284,22 +239,11 @@
 		698F460E133B5AF900311E34 /* TwitterSecrets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwitterSecrets.h; path = src/TwitterSecrets.h; sourceTree = "<group>"; };
 		698F460F133B5AF900311E34 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		698F4610133B5AF900311E34 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
-		698F46E1133B601500311E34 /* PTHotKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTHotKey.h; path = externalFw/shortcutrecorder/Demo/HotKey/PTHotKey.h; sourceTree = SOURCE_ROOT; };
-		698F46E2133B601500311E34 /* PTHotKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTHotKey.m; path = externalFw/shortcutrecorder/Demo/HotKey/PTHotKey.m; sourceTree = SOURCE_ROOT; };
-		698F46E3133B601500311E34 /* PTHotKeyCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTHotKeyCenter.h; path = externalFw/shortcutrecorder/Demo/HotKey/PTHotKeyCenter.h; sourceTree = SOURCE_ROOT; };
-		698F46E4133B601500311E34 /* PTHotKeyCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTHotKeyCenter.m; path = externalFw/shortcutrecorder/Demo/HotKey/PTHotKeyCenter.m; sourceTree = SOURCE_ROOT; };
-		698F46E5133B601500311E34 /* PTKeyCodeTranslator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTKeyCodeTranslator.h; path = externalFw/shortcutrecorder/Demo/HotKey/PTKeyCodeTranslator.h; sourceTree = SOURCE_ROOT; };
-		698F46E6133B601500311E34 /* PTKeyCodeTranslator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTKeyCodeTranslator.m; path = externalFw/shortcutrecorder/Demo/HotKey/PTKeyCodeTranslator.m; sourceTree = SOURCE_ROOT; };
-		698F46E7133B601500311E34 /* PTKeyCombo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PTKeyCombo.h; path = externalFw/shortcutrecorder/Demo/HotKey/PTKeyCombo.h; sourceTree = SOURCE_ROOT; };
-		698F46E8133B601500311E34 /* PTKeyCombo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PTKeyCombo.m; path = externalFw/shortcutrecorder/Demo/HotKey/PTKeyCombo.m; sourceTree = SOURCE_ROOT; };
 		698F46F8133B708700311E34 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		698F46FA133B709600311E34 /* CalendarStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CalendarStore.framework; path = System/Library/Frameworks/CalendarStore.framework; sourceTree = SDKROOT; };
 		698F46FC133B70B000311E34 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		698F46FE133B714100311E34 /* ShortcutRecorder.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ShortcutRecorder.xcodeproj; path = externalFw/shortcutrecorder/ShortcutRecorder.xcodeproj; sourceTree = "<group>"; };
 		698F4718133B71C300311E34 /* BGHUDAppKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BGHUDAppKit.xcodeproj; path = externalFw/BGHUDAppKit/BGHUDAppKit.xcodeproj; sourceTree = "<group>"; };
 		698F4733133B72BC00311E34 /* BGHUDAppKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BGHUDAppKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		698F4734133B72BC00311E34 /* OAuthConsumer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAuthConsumer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		698F4735133B72BC00311E34 /* ShortcutRecorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ShortcutRecorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		698F4739133B72E800311E34 /* Automator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Automator.framework; path = System/Library/Frameworks/Automator.framework; sourceTree = SDKROOT; };
 		698F473B133B731600311E34 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
 		698F4746133B7A5B00311E34 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Growl.framework; path = externalFw/Growl.framework; sourceTree = "<group>"; };
@@ -353,6 +297,7 @@
 		69ED6412133BB502003F59BA /* SmartTimerTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartTimerTests.h; sourceTree = "<group>"; };
 		69ED6413133BB502003F59BA /* SmartTimerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartTimerTests.m; sourceTree = "<group>"; };
 		69FCF746135729DD003862DC /* ringBreak.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ringBreak.wav; sourceTree = "<group>"; };
+		BBFD02C1C57C18DE03F16DCA /* Pods-Pomodoro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pomodoro.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pomodoro/Pods-Pomodoro.release.xcconfig"; sourceTree = "<group>"; };
 		DB4C2A86166888A6000B2718 /* setStatusToAvailableInMessages.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = setStatusToAvailableInMessages.applescript; sourceTree = "<group>"; };
 		DB4C2A88166888D4000B2718 /* setStatusToPomodoroInMessages.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = setStatusToPomodoroInMessages.applescript; sourceTree = "<group>"; };
 		DB8AF4F2165EEB0F0039DA49 /* OpenUrlCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenUrlCommand.h; path = src/OpenUrlCommand.h; sourceTree = "<group>"; };
@@ -371,14 +316,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				698F4736133B72BD00311E34 /* BGHUDAppKit.framework in Frameworks */,
-				698F4737133B72BD00311E34 /* OAuthConsumer.framework in Frameworks */,
-				698F4738133B72BD00311E34 /* ShortcutRecorder.framework in Frameworks */,
 				698F473A133B72E800311E34 /* Automator.framework in Frameworks */,
 				69AE95E8133B4705004DC14D /* Cocoa.framework in Frameworks */,
 				698F4748133B7A9100311E34 /* Growl.framework in Frameworks */,
 				698F473C133B731600311E34 /* Carbon.framework in Frameworks */,
 				698F46FB133B709600311E34 /* CalendarStore.framework in Frameworks */,
-				698F46F9133B708700311E34 /* libxml2.dylib in Frameworks */,
+				16656CAF1E77972A4E68D0BC /* Pods_Pomodoro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,36 +484,10 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		698F4694133B5F4000311E34 /* PTHotKey */ = {
-			isa = PBXGroup;
-			children = (
-				698F46E1133B601500311E34 /* PTHotKey.h */,
-				698F46E2133B601500311E34 /* PTHotKey.m */,
-				698F46E3133B601500311E34 /* PTHotKeyCenter.h */,
-				698F46E4133B601500311E34 /* PTHotKeyCenter.m */,
-				698F46E5133B601500311E34 /* PTKeyCodeTranslator.h */,
-				698F46E6133B601500311E34 /* PTKeyCodeTranslator.m */,
-				698F46E7133B601500311E34 /* PTKeyCombo.h */,
-				698F46E8133B601500311E34 /* PTKeyCombo.m */,
-			);
-			name = PTHotKey;
-			sourceTree = "<group>";
-		};
-		698F46FF133B714100311E34 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				698F470A133B714200311E34 /* ShortcutRecorder.framework */,
-				698F470C133B714200311E34 /* ShortcutRecorder.app */,
-				698F470E133B714200311E34 /* ShortcutRecorder.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		698F4713133B719900311E34 /* Dependencies */ = {
 			isa = PBXGroup;
 			children = (
 				698F4718133B71C300311E34 /* BGHUDAppKit.xcodeproj */,
-				698F46FE133B714100311E34 /* ShortcutRecorder.xcodeproj */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
@@ -609,6 +526,7 @@
 				69AE960B133B4706004DC14D /* PomodoroTests */,
 				69AE95E6133B4705004DC14D /* Frameworks */,
 				69AE95E4133B4705004DC14D /* Products */,
+				A7BCC62B3D2C2D740D313231 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -626,6 +544,7 @@
 			children = (
 				698F473D133B735400311E34 /* Apple */,
 				69AE95E9133B4705004DC14D /* Other Frameworks */,
+				28CA33D438E73E1E632BFA5D /* Pods_Pomodoro.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -635,8 +554,6 @@
 			children = (
 				698F4746133B7A5B00311E34 /* Growl.framework */,
 				698F4733133B72BC00311E34 /* BGHUDAppKit.framework */,
-				698F4734133B72BC00311E34 /* OAuthConsumer.framework */,
-				698F4735133B72BC00311E34 /* ShortcutRecorder.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
@@ -648,7 +565,6 @@
 				698F4690133B5D4A00311E34 /* Controller */,
 				698F4691133B5D5300311E34 /* Helper */,
 				698F468F133B5D3D00311E34 /* Pomodoro */,
-				698F4694133B5F4000311E34 /* PTHotKey */,
 				698F4693133B5D7000311E34 /* Resources */,
 			);
 			path = Pomodoro;
@@ -730,6 +646,15 @@
 			name = Text;
 			sourceTree = "<group>";
 		};
+		A7BCC62B3D2C2D740D313231 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53E31A2A4857348CE58E9B46 /* Pods-Pomodoro.debug.xcconfig */,
+				BBFD02C1C57C18DE03F16DCA /* Pods-Pomodoro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -737,19 +662,19 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69AE9618133B4706004DC14D /* Build configuration list for PBXNativeTarget "Pomodoro" */;
 			buildPhases = (
+				A687B4C2FD13C96C6FE50126 /* [CP] Check Pods Manifest.lock */,
 				69AE95DF133B4705004DC14D /* Sources */,
 				69AE95E0133B4705004DC14D /* Frameworks */,
 				69AE95E1133B4705004DC14D /* Resources */,
 				698F4741133B75AB00311E34 /* CopyFiles */,
 				698F4740133B74E700311E34 /* ShellScript */,
 				6951BA19136D77DD00252C5A /* ShellScript */,
+				85654337E3E8ADCC05E47501 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				698F4732133B71EF00311E34 /* PBXTargetDependency */,
-				698F4710133B716800311E34 /* PBXTargetDependency */,
-				698F4712133B716800311E34 /* PBXTargetDependency */,
 			);
 			name = Pomodoro;
 			productName = Pomodoro;
@@ -802,10 +727,6 @@
 					ProductGroup = 698F4719133B71C300311E34 /* Products */;
 					ProjectRef = 698F4718133B71C300311E34 /* BGHUDAppKit.xcodeproj */;
 				},
-				{
-					ProductGroup = 698F46FF133B714100311E34 /* Products */;
-					ProjectRef = 698F46FE133B714100311E34 /* ShortcutRecorder.xcodeproj */;
-				},
 			);
 			projectRoot = "";
 			targets = (
@@ -816,27 +737,6 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		698F470A133B714200311E34 /* ShortcutRecorder.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ShortcutRecorder.framework;
-			remoteRef = 698F4709133B714200311E34 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		698F470C133B714200311E34 /* ShortcutRecorder.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = ShortcutRecorder.app;
-			remoteRef = 698F470B133B714200311E34 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		698F470E133B714200311E34 /* ShortcutRecorder.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ShortcutRecorder.framework;
-			remoteRef = 698F470D133B714200311E34 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		698F4721133B71C300311E34 /* BGHUDAppKit.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -891,8 +791,6 @@
 				698F4634133B5AF900311E34 /* yellow.png in Resources */,
 				698F4642133B5AF900311E34 /* ring.wav in Resources */,
 				698F4643133B5AF900311E34 /* tick.wav in Resources */,
-				698F465A133B5AF900311E34 /* README.txt in Resources */,
-				698F465B133B5AF900311E34 /* ReleaseNotes.txt in Resources */,
 				69ED6384133B9D03003F59BA /* Stats.xib in Resources */,
 				69ED638D133B9D12003F59BA /* About.xib in Resources */,
 				69ED638E133B9D12003F59BA /* InfoPlist.strings in Resources */,
@@ -959,6 +857,50 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		85654337E3E8ADCC05E47501 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Pomodoro/Pods-Pomodoro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ShortcutRecorder/ShortcutRecorder.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ShortcutRecorder.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Pomodoro/Pods-Pomodoro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A687B4C2FD13C96C6FE50126 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pomodoro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -989,10 +931,6 @@
 				698F4656133B5AF900311E34 /* SpeechController.m in Sources */,
 				698F4657133B5AF900311E34 /* SplashController.m in Sources */,
 				698F4658133B5AF900311E34 /* StatsController.m in Sources */,
-				698F46E9133B601500311E34 /* PTHotKey.m in Sources */,
-				698F46EA133B601500311E34 /* PTHotKeyCenter.m in Sources */,
-				698F46EB133B601500311E34 /* PTKeyCodeTranslator.m in Sources */,
-				698F46EC133B601500311E34 /* PTKeyCombo.m in Sources */,
 				69ED6411133BB31F003F59BA /* SmartTimer.m in Sources */,
 				69D17DD6136AAC9F00F5D922 /* StartCommand.m in Sources */,
 				69D17E15136C0C9C00F5D922 /* ResetCommand.m in Sources */,
@@ -1017,16 +955,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		698F4710133B716800311E34 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Build ShortcutRecorder.framework";
-			targetProxy = 698F470F133B716800311E34 /* PBXContainerItemProxy */;
-		};
-		698F4712133B716800311E34 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ShortcutRecorder.framework - for embedding in ibplugin";
-			targetProxy = 698F4711133B716800311E34 /* PBXContainerItemProxy */;
-		};
 		698F4732133B71EF00311E34 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BGHUDAppKit;
@@ -1154,7 +1082,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -1180,13 +1108,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
 		69AE9619133B4706004DC14D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53E31A2A4857348CE58E9B46 /* Pods-Pomodoro.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -1201,7 +1130,6 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pomodoro/Pomodoro-Prefix.pch";
-				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				INFOPLIST_FILE = "Pomodoro/Pomodoro-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -1210,6 +1138,7 @@
 		};
 		69AE961A133B4706004DC14D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBFD02C1C57C18DE03F16DCA /* Pods-Pomodoro.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -1224,7 +1153,6 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Pomodoro/Pomodoro-Prefix.pch";
-				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				INFOPLIST_FILE = "Pomodoro/Pomodoro-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

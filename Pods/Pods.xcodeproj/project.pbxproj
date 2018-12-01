@@ -1,0 +1,915 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		008C9853E168790CC8C7534B780AC96F /* ShortcutRecorder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F80AFA441639FFA4F2962C58D0F6952 /* ShortcutRecorder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		015BEF8C832223947BB05DDD808A4C4C /* el.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3C0AC9678F3E68AE4CDF5D5F3C00C07F /* el.lproj */; };
+		073589D9D05835052DB8ACF8C12FBC95 /* SRKeyEquivalentModifierMaskTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = F5710E2CEB605D2B7B04CEA500F5C418 /* SRKeyEquivalentModifierMaskTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B4BD655DAA7B557C8FF84CE9A9AA794 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D7DA32B77F92914FC6F0B2D28D79A0F8 /* de.lproj */; };
+		0FB5815DD539FC375F25F98B0FEF91C9 /* Pods-Pomodoro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EC8E23C4E616641D1AC92CCB34F795 /* Pods-Pomodoro-dummy.m */; };
+		146A307375F10A52037F50DD7CF503BE /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EBD35E661830486FA397344C0D39AEDD /* nl.lproj */; };
+		15FF86B425A89BFD61AE82948B5E5BBC /* PTKeyCombo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0073F8A80FB9E1AAB9B219E9167EB9E9 /* PTKeyCombo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18D5327B2818486F0058DED29A1E9223 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 861C32297484F964708DD5D2C981F2C0 /* Carbon.framework */; };
+		19612860D974FB20881597D38B7CB8EC /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 43F88BD4C7738FB18807CC09FD1FDFDC /* pl.lproj */; };
+		1A625F0E1928D89707A0B8511F5AB58A /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4A8ECEFA3259F8BC6C357C4DDA63D668 /* en.lproj */; };
+		27E3F85F265C21420CB7C1B19D85673D /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 39F42DFE70E9AF3FAD9049F1DEE8051D /* zh-Hans.lproj */; };
+		28EB2A4E0DB901DDCFAEA289A1C3616E /* sk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 2E9235AA4DE93B7BA0B265AB4C21E7C3 /* sk.lproj */; };
+		2C3AAABECF034DDB47ED190663421E72 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1049AD5515AE532DADE959B507F45FE4 /* pt.lproj */; };
+		2D6767D86AD33E77F1CFB40A5DD7DF6F /* SRModifierFlagsTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = E71B6139A23F2F67BD606DAFF2FBA666 /* SRModifierFlagsTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2E956B5C74219CFE348079C85C6DE812 /* HotKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D1A051594EED00CA0CB3FEE9B2A4343 /* HotKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F17BE320FAB59028D0DD03ED2A89126 /* ShortcutRecorder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C97E7A029ABC7E595B145E0D4998CAD /* ShortcutRecorder-dummy.m */; };
+		39740FD935746D5A5057DD6202BA9B6A /* nb.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 742CE7C2C5904DB44E362215105BF9B7 /* nb.lproj */; };
+		398F791EE117001CA4CB17081B59C965 /* PTHotKey+ShortcutRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC47062675A0ECCAD0F52A2159D3677 /* PTHotKey+ShortcutRecorder.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4499405B70FB6D56C36B4FF47FF75B33 /* ShortcutRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 7314129E3E027367B6B9D9C95923A2BE /* ShortcutRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49569458503A89B19542203A9E3B28A2 /* SRKeyCodeTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 49614473302BCFA7C069CD3A2FBE500B /* SRKeyCodeTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4E24921F613AFDAD1A36E90D16EBF677 /* PTHotKey.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C9F33C0BCF2E23EC6734AC19D5EB0A /* PTHotKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5308C13689821A441FA60262AF0D90BB /* SRValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = CA8F814005F4AAFEE057D7E23418A691 /* SRValidator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		567BA53ADF17E5DD52C433D14D14672A /* ShortcutRecorder.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 252189E53977D6936C52EA827C4D951C /* ShortcutRecorder.bundle */; };
+		5A0EC554385F0D4FB32F5C3D54C03EEC /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D1F485F31B9F4C8E2D61069CD4438AFF /* es.lproj */; };
+		614D2CD6986F0BA02D5730D82FA74A8F /* SRCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2928076420E64A5B82C3201DEBADE718 /* SRCommon.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		617004F9E6278082CD2CB28882E999B2 /* Pods-Pomodoro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30AB9318EE0CAB0EE32D3893189E894D /* Pods-Pomodoro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A6F3FBAD7528999EE78C60413265AE6 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E38829ACE66E8E6F4A75E60C3E3DEA8F /* zh-Hant.lproj */; };
+		6B94AA1CA72F0E00B35285EF96A7424C /* PTHotKeyCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCCAC808F4DC2A89A3BB595C5481EAD /* PTHotKeyCenter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7689110B9F8F19740C18D24BAA4620FF /* PTHotKeyCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D6E3FE0904F799B2CB170625AEAC2D9 /* PTHotKeyCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		781E15CA6C72A36EACB451424CBEA297 /* SRKeyEquivalentTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CBB3B7EF9E8458FDD676D751498CE4 /* SRKeyEquivalentTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		83D74B4546F13A09C76495D06AABB752 /* SRRecorderControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 306E0A0519DB41B389048314FC91E931 /* SRRecorderControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C578F71C291B805EC200AB32F395806 /* PTKeyCombo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC4FCBCDAD59CF337C4A38A396C9F33 /* PTKeyCombo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		8C7427ACBC640A24AB661AF384E06755 /* es-MX.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 51C3C304E0BD2AAF7648BFE7D578A32E /* es-MX.lproj */; };
+		9C042D4037326C40A930B49546329323 /* SRCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 606279D43FB4163F3317E7522699A8D2 /* SRCommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A490CDA93A62D15DF90FE9A2486B7D2C /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 3CD3D532D1F75B3809ADE4E8BA63BC40 /* ko.lproj */; };
+		AB5B366C213BC52C40F4BF60AF9CAA03 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 244F80159E664232325CEAE4E877461A /* it.lproj */; };
+		B3DE21190252CF7D2101F8B8A07C2FE4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD781516C9F70CFBE950805595B074C2 /* Cocoa.framework */; };
+		B7F956E73B5B5F79F87489D49CA942D5 /* pt-BR.lproj in Resources */ = {isa = PBXBuildFile; fileRef = ED23E7E8DDA60E123DFFBCE39A4C50AA /* pt-BR.lproj */; };
+		B924FAE436A73ED35899711AF14F1832 /* SRRecorderControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F6B38D6E6C06D60DB757F7A1A863E7A /* SRRecorderControl.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BFE00A6F7F1DD60094EF04C310A3E810 /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A0C5E27CA6FBFFDB707419721CAC2158 /* sv.lproj */; };
+		C06AC70FD46D08536CC9477C5AB76290 /* ro.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4E8AF33B9CC01080B423469D99CF9C94 /* ro.lproj */; };
+		C3110F4147E6C2749C4661D418C8B7EE /* SRModifierFlagsTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8404E11231D465F25BD025C653E86FB3 /* SRModifierFlagsTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3A8D30B8FB5C4099E55CBF07D71DC76 /* PTHotKey+ShortcutRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = DF585ADB7D619578F3BFCA0CA6BAE063 /* PTHotKey+ShortcutRecorder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4449C3D99E84008B2E043405A42F410 /* PTHotKey.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF83635AAB0FE3CD5E76C0C83BB20BB /* PTHotKey.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CFB0A47230EEF5092A87EC5BD2183B96 /* SRKeyCodeTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = A5245A0DE439D774D1693C45DA826DD8 /* SRKeyCodeTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D48BC1971F205B65E8755C96AB75EC1B /* ca.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0D178AFACBA81F067B5FE8303EC50101 /* ca.lproj */; };
+		D97F379A38750A4FAD2496801B1C111E /* SRKeyEquivalentTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 40D0C6964991ADB3CC7CD67D9FC6F1A1 /* SRKeyEquivalentTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBA2FC021D9336A2BF28863466BAC3C3 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 473AC76E33CB3C887866573AA87DA7B8 /* fr.lproj */; };
+		DCAFF9925E24D8D1B86D6DA3923DF50A /* PTKeyCodeTranslator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1283DB7EF80307F1852A479BA14DAF94 /* PTKeyCodeTranslator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2149E62CAEA6D3529063BE934F28F59 /* cs.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 30B0572CC3E26A61FA00777360A6ECBB /* cs.lproj */; };
+		E34D1414EFD676B70FA90192FD5FF776 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E2FE030F6F50B0FEBBF3DC20A2644A3C /* ja.lproj */; };
+		E6151BBF62F15FAB3EF08A3A3A0BF0E6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD781516C9F70CFBE950805595B074C2 /* Cocoa.framework */; };
+		E9914CC4CF0C2734A4E67A735625A252 /* th.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C518C0B9E236B0C3B29EEE255E13BBB3 /* th.lproj */; };
+		E9FFE3532D230265378E026DF05103C2 /* SRKeyEquivalentModifierMaskTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBBEE65AA96A12A39E288293CCFC31B /* SRKeyEquivalentModifierMaskTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F43B5266D33B67B0256AA766064A83C5 /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 772C6C083848ED5EFCCB2E3D7FB6E156 /* ru.lproj */; };
+		FCA6CEBCE73232042278ADF98F9773D3 /* PTKeyCodeTranslator.m in Sources */ = {isa = PBXBuildFile; fileRef = 97872CF4CCACFEA6EAD340159FFDCADE /* PTKeyCodeTranslator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FF4C262958FB834A2D6039EC75ECBA2F /* SRValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5000166E7E61593BFE8324B27D67F8 /* SRValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79923ED58419E1FB5995B6FD663B3F60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1605D64958DB9DE2B12755B6D92A7B0;
+			remoteInfo = "ShortcutRecorder-ShortcutRecorder";
+		};
+		D04193A273B5CFE373D758F7990BA852 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 034925DC25E102853C4B6AA08BE4CB41;
+			remoteInfo = ShortcutRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0073F8A80FB9E1AAB9B219E9167EB9E9 /* PTKeyCombo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTKeyCombo.h; path = PTHotKey/PTKeyCombo.h; sourceTree = "<group>"; };
+		034DA6CA15A7B83B1EAAC6F9DB572956 /* ShortcutRecorder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ShortcutRecorder.modulemap; sourceTree = "<group>"; };
+		0CBBEE65AA96A12A39E288293CCFC31B /* SRKeyEquivalentModifierMaskTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKeyEquivalentModifierMaskTransformer.m; path = Library/SRKeyEquivalentModifierMaskTransformer.m; sourceTree = "<group>"; };
+		0D06D8860F7CBDCF0BDC1378685AD43B /* ShortcutRecorder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShortcutRecorder.xcconfig; sourceTree = "<group>"; };
+		0D178AFACBA81F067B5FE8303EC50101 /* ca.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ca.lproj; path = Resources/ca.lproj; sourceTree = "<group>"; };
+		0E9562491FA2F40E059C96CBD478A4BF /* ShortcutRecorder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShortcutRecorder-prefix.pch"; sourceTree = "<group>"; };
+		1049AD5515AE532DADE959B507F45FE4 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pt.lproj; path = Resources/pt.lproj; sourceTree = "<group>"; };
+		1283DB7EF80307F1852A479BA14DAF94 /* PTKeyCodeTranslator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTKeyCodeTranslator.h; path = PTHotKey/PTKeyCodeTranslator.h; sourceTree = "<group>"; };
+		244F80159E664232325CEAE4E877461A /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = it.lproj; path = Resources/it.lproj; sourceTree = "<group>"; };
+		252189E53977D6936C52EA827C4D951C /* ShortcutRecorder.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ShortcutRecorder.bundle; path = "ShortcutRecorder-ShortcutRecorder.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2928076420E64A5B82C3201DEBADE718 /* SRCommon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRCommon.m; path = Library/SRCommon.m; sourceTree = "<group>"; };
+		2E9235AA4DE93B7BA0B265AB4C21E7C3 /* sk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = sk.lproj; path = Resources/sk.lproj; sourceTree = "<group>"; };
+		2F80AFA441639FFA4F2962C58D0F6952 /* ShortcutRecorder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShortcutRecorder-umbrella.h"; sourceTree = "<group>"; };
+		306E0A0519DB41B389048314FC91E931 /* SRRecorderControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRRecorderControl.h; path = Library/SRRecorderControl.h; sourceTree = "<group>"; };
+		30AB9318EE0CAB0EE32D3893189E894D /* Pods-Pomodoro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Pomodoro-umbrella.h"; sourceTree = "<group>"; };
+		30B0572CC3E26A61FA00777360A6ECBB /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = cs.lproj; path = Resources/cs.lproj; sourceTree = "<group>"; };
+		30CBB3B7EF9E8458FDD676D751498CE4 /* SRKeyEquivalentTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKeyEquivalentTransformer.m; path = Library/SRKeyEquivalentTransformer.m; sourceTree = "<group>"; };
+		39F42DFE70E9AF3FAD9049F1DEE8051D /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "Resources/zh-Hans.lproj"; sourceTree = "<group>"; };
+		3C0AC9678F3E68AE4CDF5D5F3C00C07F /* el.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = el.lproj; path = Resources/el.lproj; sourceTree = "<group>"; };
+		3CD3D532D1F75B3809ADE4E8BA63BC40 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ko.lproj; path = Resources/ko.lproj; sourceTree = "<group>"; };
+		3D6E3FE0904F799B2CB170625AEAC2D9 /* PTHotKeyCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTHotKeyCenter.h; path = PTHotKey/PTHotKeyCenter.h; sourceTree = "<group>"; };
+		40D0C6964991ADB3CC7CD67D9FC6F1A1 /* SRKeyEquivalentTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKeyEquivalentTransformer.h; path = Library/SRKeyEquivalentTransformer.h; sourceTree = "<group>"; };
+		43F88BD4C7738FB18807CC09FD1FDFDC /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = pl.lproj; path = Resources/pl.lproj; sourceTree = "<group>"; };
+		473AC76E33CB3C887866573AA87DA7B8 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = fr.lproj; path = Resources/fr.lproj; sourceTree = "<group>"; };
+		49614473302BCFA7C069CD3A2FBE500B /* SRKeyCodeTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRKeyCodeTransformer.m; path = Library/SRKeyCodeTransformer.m; sourceTree = "<group>"; };
+		4A8ECEFA3259F8BC6C357C4DDA63D668 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = Resources/en.lproj; sourceTree = "<group>"; };
+		4E8AF33B9CC01080B423469D99CF9C94 /* ro.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ro.lproj; path = Resources/ro.lproj; sourceTree = "<group>"; };
+		4FC47062675A0ECCAD0F52A2159D3677 /* PTHotKey+ShortcutRecorder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PTHotKey+ShortcutRecorder.m"; path = "PTHotKey/PTHotKey+ShortcutRecorder.m"; sourceTree = "<group>"; };
+		51C3C304E0BD2AAF7648BFE7D578A32E /* es-MX.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "es-MX.lproj"; path = "Resources/es-MX.lproj"; sourceTree = "<group>"; };
+		5DBE826EE46159167E99B3A51D62DEE7 /* Pods-Pomodoro-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pomodoro-Info.plist"; sourceTree = "<group>"; };
+		5F81CB02F27E3AB2C52166162E7E0E01 /* Pods-Pomodoro-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Pomodoro-frameworks.sh"; sourceTree = "<group>"; };
+		606279D43FB4163F3317E7522699A8D2 /* SRCommon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRCommon.h; path = Library/SRCommon.h; sourceTree = "<group>"; };
+		6D42A6A9FE1DA00DFD027C6C1F98CB8B /* ShortcutRecorder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ShortcutRecorder.framework; path = ShortcutRecorder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DCCAC808F4DC2A89A3BB595C5481EAD /* PTHotKeyCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTHotKeyCenter.m; path = PTHotKey/PTHotKeyCenter.m; sourceTree = "<group>"; };
+		7314129E3E027367B6B9D9C95923A2BE /* ShortcutRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ShortcutRecorder.h; path = Library/ShortcutRecorder.h; sourceTree = "<group>"; };
+		742CE7C2C5904DB44E362215105BF9B7 /* nb.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nb.lproj; path = Resources/nb.lproj; sourceTree = "<group>"; };
+		772C6C083848ED5EFCCB2E3D7FB6E156 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ru.lproj; path = Resources/ru.lproj; sourceTree = "<group>"; };
+		7D1A051594EED00CA0CB3FEE9B2A4343 /* HotKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HotKey.h; path = PTHotKey/HotKey.h; sourceTree = "<group>"; };
+		8404E11231D465F25BD025C653E86FB3 /* SRModifierFlagsTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRModifierFlagsTransformer.h; path = Library/SRModifierFlagsTransformer.h; sourceTree = "<group>"; };
+		861C32297484F964708DD5D2C981F2C0 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Carbon.framework; sourceTree = DEVELOPER_DIR; };
+		8F6B38D6E6C06D60DB757F7A1A863E7A /* SRRecorderControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRRecorderControl.m; path = Library/SRRecorderControl.m; sourceTree = "<group>"; };
+		97872CF4CCACFEA6EAD340159FFDCADE /* PTKeyCodeTranslator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTKeyCodeTranslator.m; path = PTHotKey/PTKeyCodeTranslator.m; sourceTree = "<group>"; };
+		9C97E7A029ABC7E595B145E0D4998CAD /* ShortcutRecorder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShortcutRecorder-dummy.m"; sourceTree = "<group>"; };
+		9FC4FCBCDAD59CF337C4A38A396C9F33 /* PTKeyCombo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTKeyCombo.m; path = PTHotKey/PTKeyCombo.m; sourceTree = "<group>"; };
+		A065F169E597FFDFC07C1FBD33BB420A /* Pods-Pomodoro-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Pomodoro-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A0C5E27CA6FBFFDB707419721CAC2158 /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = sv.lproj; path = Resources/sv.lproj; sourceTree = "<group>"; };
+		A1C8C10A55D11B4F976FB689C5F6E874 /* Pods-Pomodoro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pomodoro.debug.xcconfig"; sourceTree = "<group>"; };
+		A5245A0DE439D774D1693C45DA826DD8 /* SRKeyCodeTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKeyCodeTransformer.h; path = Library/SRKeyCodeTransformer.h; sourceTree = "<group>"; };
+		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B40E96C6A0077D425A3810A4CB5A2497 /* Pods-Pomodoro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Pomodoro.modulemap"; sourceTree = "<group>"; };
+		BF5000166E7E61593BFE8324B27D67F8 /* SRValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRValidator.h; path = Library/SRValidator.h; sourceTree = "<group>"; };
+		BFF83635AAB0FE3CD5E76C0C83BB20BB /* PTHotKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PTHotKey.m; path = PTHotKey/PTHotKey.m; sourceTree = "<group>"; };
+		C518C0B9E236B0C3B29EEE255E13BBB3 /* th.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = th.lproj; path = Resources/th.lproj; sourceTree = "<group>"; };
+		CA8F814005F4AAFEE057D7E23418A691 /* SRValidator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRValidator.m; path = Library/SRValidator.m; sourceTree = "<group>"; };
+		CC80BDAF55BB7AB8C24899FC1403AB39 /* Pods-Pomodoro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Pomodoro.release.xcconfig"; sourceTree = "<group>"; };
+		D1F485F31B9F4C8E2D61069CD4438AFF /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = es.lproj; path = Resources/es.lproj; sourceTree = "<group>"; };
+		D3C9F33C0BCF2E23EC6734AC19D5EB0A /* PTHotKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PTHotKey.h; path = PTHotKey/PTHotKey.h; sourceTree = "<group>"; };
+		D7DA32B77F92914FC6F0B2D28D79A0F8 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = de.lproj; path = Resources/de.lproj; sourceTree = "<group>"; };
+		D8EC8E23C4E616641D1AC92CCB34F795 /* Pods-Pomodoro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Pomodoro-dummy.m"; sourceTree = "<group>"; };
+		DDD5844B2DD41EA1DFDFF891B6BE33FA /* Pods_Pomodoro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Pomodoro.framework; path = "Pods-Pomodoro.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF585ADB7D619578F3BFCA0CA6BAE063 /* PTHotKey+ShortcutRecorder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PTHotKey+ShortcutRecorder.h"; path = "PTHotKey/PTHotKey+ShortcutRecorder.h"; sourceTree = "<group>"; };
+		E0667A7D131FD67086A358766D78577C /* ResourceBundle-ShortcutRecorder-ShortcutRecorder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ShortcutRecorder-ShortcutRecorder-Info.plist"; sourceTree = "<group>"; };
+		E2FE030F6F50B0FEBBF3DC20A2644A3C /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = ja.lproj; path = Resources/ja.lproj; sourceTree = "<group>"; };
+		E38829ACE66E8E6F4A75E60C3E3DEA8F /* zh-Hant.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hant.lproj"; path = "Resources/zh-Hant.lproj"; sourceTree = "<group>"; };
+		E71B6139A23F2F67BD606DAFF2FBA666 /* SRModifierFlagsTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRModifierFlagsTransformer.m; path = Library/SRModifierFlagsTransformer.m; sourceTree = "<group>"; };
+		EBD35E661830486FA397344C0D39AEDD /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = nl.lproj; path = Resources/nl.lproj; sourceTree = "<group>"; };
+		ED23E7E8DDA60E123DFFBCE39A4C50AA /* pt-BR.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "pt-BR.lproj"; path = "Resources/pt-BR.lproj"; sourceTree = "<group>"; };
+		F3BB41020CBBA8BDF7920BFECEC76F97 /* Pods-Pomodoro-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Pomodoro-acknowledgements.plist"; sourceTree = "<group>"; };
+		F5710E2CEB605D2B7B04CEA500F5C418 /* SRKeyEquivalentModifierMaskTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRKeyEquivalentModifierMaskTransformer.h; path = Library/SRKeyEquivalentModifierMaskTransformer.h; sourceTree = "<group>"; };
+		FCCF87030281AED9C7D32CDBC63D1280 /* ShortcutRecorder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ShortcutRecorder-Info.plist"; sourceTree = "<group>"; };
+		FD781516C9F70CFBE950805595B074C2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A33A8378CA118613328B30C05E65EAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3DE21190252CF7D2101F8B8A07C2FE4 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		486ACECDEF7E2D552F4BA1756B950CEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D5327B2818486F0058DED29A1E9223 /* Carbon.framework in Frameworks */,
+				E6151BBF62F15FAB3EF08A3A3A0BF0E6 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E30089251DFC7CDF8AB3189E59C99186 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C9BE3F140E87D652128EBA4DA51915 /* ShortcutRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				C073F214F98AD729967F62CEF4EC269C /* Core */,
+				93FEC4FD494BA2214F56DDE4C2F7A1BF /* PTHotKey */,
+				5C66FD2940D7B606240A64B893E29B5B /* Support Files */,
+			);
+			name = ShortcutRecorder;
+			path = ShortcutRecorder;
+			sourceTree = "<group>";
+		};
+		28E512BB83FA7CBA41207E51890F4DF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDD5844B2DD41EA1DFDFF891B6BE33FA /* Pods_Pomodoro.framework */,
+				252189E53977D6936C52EA827C4D951C /* ShortcutRecorder.bundle */,
+				6D42A6A9FE1DA00DFD027C6C1F98CB8B /* ShortcutRecorder.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3504CA52E245B42BC2687FBCF22A4B17 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D178AFACBA81F067B5FE8303EC50101 /* ca.lproj */,
+				30B0572CC3E26A61FA00777360A6ECBB /* cs.lproj */,
+				D7DA32B77F92914FC6F0B2D28D79A0F8 /* de.lproj */,
+				3C0AC9678F3E68AE4CDF5D5F3C00C07F /* el.lproj */,
+				4A8ECEFA3259F8BC6C357C4DDA63D668 /* en.lproj */,
+				D1F485F31B9F4C8E2D61069CD4438AFF /* es.lproj */,
+				51C3C304E0BD2AAF7648BFE7D578A32E /* es-MX.lproj */,
+				473AC76E33CB3C887866573AA87DA7B8 /* fr.lproj */,
+				244F80159E664232325CEAE4E877461A /* it.lproj */,
+				E2FE030F6F50B0FEBBF3DC20A2644A3C /* ja.lproj */,
+				3CD3D532D1F75B3809ADE4E8BA63BC40 /* ko.lproj */,
+				742CE7C2C5904DB44E362215105BF9B7 /* nb.lproj */,
+				EBD35E661830486FA397344C0D39AEDD /* nl.lproj */,
+				43F88BD4C7738FB18807CC09FD1FDFDC /* pl.lproj */,
+				1049AD5515AE532DADE959B507F45FE4 /* pt.lproj */,
+				ED23E7E8DDA60E123DFFBCE39A4C50AA /* pt-BR.lproj */,
+				4E8AF33B9CC01080B423469D99CF9C94 /* ro.lproj */,
+				772C6C083848ED5EFCCB2E3D7FB6E156 /* ru.lproj */,
+				2E9235AA4DE93B7BA0B265AB4C21E7C3 /* sk.lproj */,
+				A0C5E27CA6FBFFDB707419721CAC2158 /* sv.lproj */,
+				C518C0B9E236B0C3B29EEE255E13BBB3 /* th.lproj */,
+				39F42DFE70E9AF3FAD9049F1DEE8051D /* zh-Hans.lproj */,
+				E38829ACE66E8E6F4A75E60C3E3DEA8F /* zh-Hant.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5C66FD2940D7B606240A64B893E29B5B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0667A7D131FD67086A358766D78577C /* ResourceBundle-ShortcutRecorder-ShortcutRecorder-Info.plist */,
+				034DA6CA15A7B83B1EAAC6F9DB572956 /* ShortcutRecorder.modulemap */,
+				0D06D8860F7CBDCF0BDC1378685AD43B /* ShortcutRecorder.xcconfig */,
+				9C97E7A029ABC7E595B145E0D4998CAD /* ShortcutRecorder-dummy.m */,
+				FCCF87030281AED9C7D32CDBC63D1280 /* ShortcutRecorder-Info.plist */,
+				0E9562491FA2F40E059C96CBD478A4BF /* ShortcutRecorder-prefix.pch */,
+				2F80AFA441639FFA4F2962C58D0F6952 /* ShortcutRecorder-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ShortcutRecorder";
+			sourceTree = "<group>";
+		};
+		6B1DB63D8FE616EADA4E9D4087E9A0EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5A66742B6E9B8A230BC5F3FB9A77011 /* Pods-Pomodoro */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
+				D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */,
+				9A524F6D5F5414EA3597A11DC28A672C /* Pods */,
+				28E512BB83FA7CBA41207E51890F4DF6 /* Products */,
+				6B1DB63D8FE616EADA4E9D4087E9A0EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		93FEC4FD494BA2214F56DDE4C2F7A1BF /* PTHotKey */ = {
+			isa = PBXGroup;
+			children = (
+				7D1A051594EED00CA0CB3FEE9B2A4343 /* HotKey.h */,
+				D3C9F33C0BCF2E23EC6734AC19D5EB0A /* PTHotKey.h */,
+				BFF83635AAB0FE3CD5E76C0C83BB20BB /* PTHotKey.m */,
+				DF585ADB7D619578F3BFCA0CA6BAE063 /* PTHotKey+ShortcutRecorder.h */,
+				4FC47062675A0ECCAD0F52A2159D3677 /* PTHotKey+ShortcutRecorder.m */,
+				3D6E3FE0904F799B2CB170625AEAC2D9 /* PTHotKeyCenter.h */,
+				6DCCAC808F4DC2A89A3BB595C5481EAD /* PTHotKeyCenter.m */,
+				1283DB7EF80307F1852A479BA14DAF94 /* PTKeyCodeTranslator.h */,
+				97872CF4CCACFEA6EAD340159FFDCADE /* PTKeyCodeTranslator.m */,
+				0073F8A80FB9E1AAB9B219E9167EB9E9 /* PTKeyCombo.h */,
+				9FC4FCBCDAD59CF337C4A38A396C9F33 /* PTKeyCombo.m */,
+			);
+			name = PTHotKey;
+			sourceTree = "<group>";
+		};
+		9A524F6D5F5414EA3597A11DC28A672C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01C9BE3F140E87D652128EBA4DA51915 /* ShortcutRecorder */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A0C0DA8A03BE35BF28DF29448D5A5AD1 /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				861C32297484F964708DD5D2C981F2C0 /* Carbon.framework */,
+				FD781516C9F70CFBE950805595B074C2 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		C073F214F98AD729967F62CEF4EC269C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7314129E3E027367B6B9D9C95923A2BE /* ShortcutRecorder.h */,
+				606279D43FB4163F3317E7522699A8D2 /* SRCommon.h */,
+				2928076420E64A5B82C3201DEBADE718 /* SRCommon.m */,
+				A5245A0DE439D774D1693C45DA826DD8 /* SRKeyCodeTransformer.h */,
+				49614473302BCFA7C069CD3A2FBE500B /* SRKeyCodeTransformer.m */,
+				F5710E2CEB605D2B7B04CEA500F5C418 /* SRKeyEquivalentModifierMaskTransformer.h */,
+				0CBBEE65AA96A12A39E288293CCFC31B /* SRKeyEquivalentModifierMaskTransformer.m */,
+				40D0C6964991ADB3CC7CD67D9FC6F1A1 /* SRKeyEquivalentTransformer.h */,
+				30CBB3B7EF9E8458FDD676D751498CE4 /* SRKeyEquivalentTransformer.m */,
+				8404E11231D465F25BD025C653E86FB3 /* SRModifierFlagsTransformer.h */,
+				E71B6139A23F2F67BD606DAFF2FBA666 /* SRModifierFlagsTransformer.m */,
+				306E0A0519DB41B389048314FC91E931 /* SRRecorderControl.h */,
+				8F6B38D6E6C06D60DB757F7A1A863E7A /* SRRecorderControl.m */,
+				BF5000166E7E61593BFE8324B27D67F8 /* SRValidator.h */,
+				CA8F814005F4AAFEE057D7E23418A691 /* SRValidator.m */,
+				3504CA52E245B42BC2687FBCF22A4B17 /* Resources */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		D648CE86F139C7CCFD55D5B8A03BE74B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0C0DA8A03BE35BF28DF29448D5A5AD1 /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5A66742B6E9B8A230BC5F3FB9A77011 /* Pods-Pomodoro */ = {
+			isa = PBXGroup;
+			children = (
+				B40E96C6A0077D425A3810A4CB5A2497 /* Pods-Pomodoro.modulemap */,
+				A065F169E597FFDFC07C1FBD33BB420A /* Pods-Pomodoro-acknowledgements.markdown */,
+				F3BB41020CBBA8BDF7920BFECEC76F97 /* Pods-Pomodoro-acknowledgements.plist */,
+				D8EC8E23C4E616641D1AC92CCB34F795 /* Pods-Pomodoro-dummy.m */,
+				5F81CB02F27E3AB2C52166162E7E0E01 /* Pods-Pomodoro-frameworks.sh */,
+				5DBE826EE46159167E99B3A51D62DEE7 /* Pods-Pomodoro-Info.plist */,
+				30AB9318EE0CAB0EE32D3893189E894D /* Pods-Pomodoro-umbrella.h */,
+				A1C8C10A55D11B4F976FB689C5F6E874 /* Pods-Pomodoro.debug.xcconfig */,
+				CC80BDAF55BB7AB8C24899FC1403AB39 /* Pods-Pomodoro.release.xcconfig */,
+			);
+			name = "Pods-Pomodoro";
+			path = "Target Support Files/Pods-Pomodoro";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6F22D43A488899379032FA8A7F943DFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				617004F9E6278082CD2CB28882E999B2 /* Pods-Pomodoro-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		850AA748A2E4C5135A2E40B5EC85D361 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E956B5C74219CFE348079C85C6DE812 /* HotKey.h in Headers */,
+				C3A8D30B8FB5C4099E55CBF07D71DC76 /* PTHotKey+ShortcutRecorder.h in Headers */,
+				4E24921F613AFDAD1A36E90D16EBF677 /* PTHotKey.h in Headers */,
+				7689110B9F8F19740C18D24BAA4620FF /* PTHotKeyCenter.h in Headers */,
+				DCAFF9925E24D8D1B86D6DA3923DF50A /* PTKeyCodeTranslator.h in Headers */,
+				15FF86B425A89BFD61AE82948B5E5BBC /* PTKeyCombo.h in Headers */,
+				008C9853E168790CC8C7534B780AC96F /* ShortcutRecorder-umbrella.h in Headers */,
+				4499405B70FB6D56C36B4FF47FF75B33 /* ShortcutRecorder.h in Headers */,
+				9C042D4037326C40A930B49546329323 /* SRCommon.h in Headers */,
+				CFB0A47230EEF5092A87EC5BD2183B96 /* SRKeyCodeTransformer.h in Headers */,
+				073589D9D05835052DB8ACF8C12FBC95 /* SRKeyEquivalentModifierMaskTransformer.h in Headers */,
+				D97F379A38750A4FAD2496801B1C111E /* SRKeyEquivalentTransformer.h in Headers */,
+				C3110F4147E6C2749C4661D418C8B7EE /* SRModifierFlagsTransformer.h in Headers */,
+				83D74B4546F13A09C76495D06AABB752 /* SRRecorderControl.h in Headers */,
+				FF4C262958FB834A2D6039EC75ECBA2F /* SRValidator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		034925DC25E102853C4B6AA08BE4CB41 /* ShortcutRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF1C3099122E93D6880A6BED8705FB3E /* Build configuration list for PBXNativeTarget "ShortcutRecorder" */;
+			buildPhases = (
+				850AA748A2E4C5135A2E40B5EC85D361 /* Headers */,
+				0A84B3BC1F51F9E6AED7F02463CEA7A6 /* Sources */,
+				486ACECDEF7E2D552F4BA1756B950CEC /* Frameworks */,
+				8DE09C2DB537911C678B1CF25E7FA3F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A75484DE7A1EA1F47F872FADEC6274FB /* PBXTargetDependency */,
+			);
+			name = ShortcutRecorder;
+			productName = ShortcutRecorder;
+			productReference = 6D42A6A9FE1DA00DFD027C6C1F98CB8B /* ShortcutRecorder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		89371A478585362B016A7B06A0810FD3 /* Pods-Pomodoro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B72C82A579AB7D598BFD12E0127723D /* Build configuration list for PBXNativeTarget "Pods-Pomodoro" */;
+			buildPhases = (
+				6F22D43A488899379032FA8A7F943DFA /* Headers */,
+				6581F914584499198EA4FFD1318183AE /* Sources */,
+				3A33A8378CA118613328B30C05E65EAB /* Frameworks */,
+				8F297CD99BB92B20630439AB6EF5DDFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50E267D3D4314184C5F3DE2058387397 /* PBXTargetDependency */,
+			);
+			name = "Pods-Pomodoro";
+			productName = "Pods-Pomodoro";
+			productReference = DDD5844B2DD41EA1DFDFF891B6BE33FA /* Pods_Pomodoro.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1605D64958DB9DE2B12755B6D92A7B0 /* ShortcutRecorder-ShortcutRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9ADD06B828F68C6013753DDA159ECA35 /* Build configuration list for PBXNativeTarget "ShortcutRecorder-ShortcutRecorder" */;
+			buildPhases = (
+				7BBB6C15CBE6CACFD12EBD2C370C0E8D /* Sources */,
+				E30089251DFC7CDF8AB3189E59C99186 /* Frameworks */,
+				1FD0AFEEC2E263BE8738B52E6AC538AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShortcutRecorder-ShortcutRecorder";
+			productName = "ShortcutRecorder-ShortcutRecorder";
+			productReference = 252189E53977D6936C52EA827C4D951C /* ShortcutRecorder.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 28E512BB83FA7CBA41207E51890F4DF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89371A478585362B016A7B06A0810FD3 /* Pods-Pomodoro */,
+				034925DC25E102853C4B6AA08BE4CB41 /* ShortcutRecorder */,
+				D1605D64958DB9DE2B12755B6D92A7B0 /* ShortcutRecorder-ShortcutRecorder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FD0AFEEC2E263BE8738B52E6AC538AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48BC1971F205B65E8755C96AB75EC1B /* ca.lproj in Resources */,
+				E2149E62CAEA6D3529063BE934F28F59 /* cs.lproj in Resources */,
+				0B4BD655DAA7B557C8FF84CE9A9AA794 /* de.lproj in Resources */,
+				015BEF8C832223947BB05DDD808A4C4C /* el.lproj in Resources */,
+				1A625F0E1928D89707A0B8511F5AB58A /* en.lproj in Resources */,
+				8C7427ACBC640A24AB661AF384E06755 /* es-MX.lproj in Resources */,
+				5A0EC554385F0D4FB32F5C3D54C03EEC /* es.lproj in Resources */,
+				DBA2FC021D9336A2BF28863466BAC3C3 /* fr.lproj in Resources */,
+				AB5B366C213BC52C40F4BF60AF9CAA03 /* it.lproj in Resources */,
+				E34D1414EFD676B70FA90192FD5FF776 /* ja.lproj in Resources */,
+				A490CDA93A62D15DF90FE9A2486B7D2C /* ko.lproj in Resources */,
+				39740FD935746D5A5057DD6202BA9B6A /* nb.lproj in Resources */,
+				146A307375F10A52037F50DD7CF503BE /* nl.lproj in Resources */,
+				19612860D974FB20881597D38B7CB8EC /* pl.lproj in Resources */,
+				B7F956E73B5B5F79F87489D49CA942D5 /* pt-BR.lproj in Resources */,
+				2C3AAABECF034DDB47ED190663421E72 /* pt.lproj in Resources */,
+				C06AC70FD46D08536CC9477C5AB76290 /* ro.lproj in Resources */,
+				F43B5266D33B67B0256AA766064A83C5 /* ru.lproj in Resources */,
+				28EB2A4E0DB901DDCFAEA289A1C3616E /* sk.lproj in Resources */,
+				BFE00A6F7F1DD60094EF04C310A3E810 /* sv.lproj in Resources */,
+				E9914CC4CF0C2734A4E67A735625A252 /* th.lproj in Resources */,
+				27E3F85F265C21420CB7C1B19D85673D /* zh-Hans.lproj in Resources */,
+				6A6F3FBAD7528999EE78C60413265AE6 /* zh-Hant.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DE09C2DB537911C678B1CF25E7FA3F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567BA53ADF17E5DD52C433D14D14672A /* ShortcutRecorder.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F297CD99BB92B20630439AB6EF5DDFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A84B3BC1F51F9E6AED7F02463CEA7A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				398F791EE117001CA4CB17081B59C965 /* PTHotKey+ShortcutRecorder.m in Sources */,
+				C4449C3D99E84008B2E043405A42F410 /* PTHotKey.m in Sources */,
+				6B94AA1CA72F0E00B35285EF96A7424C /* PTHotKeyCenter.m in Sources */,
+				FCA6CEBCE73232042278ADF98F9773D3 /* PTKeyCodeTranslator.m in Sources */,
+				8C578F71C291B805EC200AB32F395806 /* PTKeyCombo.m in Sources */,
+				2F17BE320FAB59028D0DD03ED2A89126 /* ShortcutRecorder-dummy.m in Sources */,
+				614D2CD6986F0BA02D5730D82FA74A8F /* SRCommon.m in Sources */,
+				49569458503A89B19542203A9E3B28A2 /* SRKeyCodeTransformer.m in Sources */,
+				E9FFE3532D230265378E026DF05103C2 /* SRKeyEquivalentModifierMaskTransformer.m in Sources */,
+				781E15CA6C72A36EACB451424CBEA297 /* SRKeyEquivalentTransformer.m in Sources */,
+				2D6767D86AD33E77F1CFB40A5DD7DF6F /* SRModifierFlagsTransformer.m in Sources */,
+				B924FAE436A73ED35899711AF14F1832 /* SRRecorderControl.m in Sources */,
+				5308C13689821A441FA60262AF0D90BB /* SRValidator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6581F914584499198EA4FFD1318183AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FB5815DD539FC375F25F98B0FEF91C9 /* Pods-Pomodoro-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BBB6C15CBE6CACFD12EBD2C370C0E8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50E267D3D4314184C5F3DE2058387397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShortcutRecorder;
+			target = 034925DC25E102853C4B6AA08BE4CB41 /* ShortcutRecorder */;
+			targetProxy = D04193A273B5CFE373D758F7990BA852 /* PBXContainerItemProxy */;
+		};
+		A75484DE7A1EA1F47F872FADEC6274FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ShortcutRecorder-ShortcutRecorder";
+			target = D1605D64958DB9DE2B12755B6D92A7B0 /* ShortcutRecorder-ShortcutRecorder */;
+			targetProxy = 79923ED58419E1FB5995B6FD663B3F60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19A0B28512B35F9F8B9831A358E4D57B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D06D8860F7CBDCF0BDC1378685AD43B /* ShortcutRecorder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ShortcutRecorder";
+				INFOPLIST_FILE = "Target Support Files/ShortcutRecorder/ResourceBundle-ShortcutRecorder-ShortcutRecorder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = ShortcutRecorder;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2360D47C0DFB9B87D8F9B21537D8FADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2DA6D5AC25E081EC87B23C39C3F5E8D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1C8C10A55D11B4F976FB689C5F6E874 /* Pods-Pomodoro.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pomodoro/Pods-Pomodoro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pomodoro/Pods-Pomodoro.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		310A794BFA9E83567374B68AAF84BFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4D9E76C6A715B79390B24D68353D7160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D06D8860F7CBDCF0BDC1378685AD43B /* ShortcutRecorder.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/ShortcutRecorder/ShortcutRecorder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShortcutRecorder/ShortcutRecorder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MODULEMAP_FILE = "Target Support Files/ShortcutRecorder/ShortcutRecorder.modulemap";
+				PRODUCT_MODULE_NAME = ShortcutRecorder;
+				PRODUCT_NAME = ShortcutRecorder;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55303D983DADC41AE3DF6C3B91201BBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D06D8860F7CBDCF0BDC1378685AD43B /* ShortcutRecorder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ShortcutRecorder";
+				INFOPLIST_FILE = "Target Support Files/ShortcutRecorder/ResourceBundle-ShortcutRecorder-ShortcutRecorder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = ShortcutRecorder;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		55F73FE9D0912D6D36FF3CD6AB723A78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC80BDAF55BB7AB8C24899FC1403AB39 /* Pods-Pomodoro.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Pomodoro/Pods-Pomodoro-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-Pomodoro/Pods-Pomodoro.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7BFB3F413F55CC9DC822D35DE04AE615 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D06D8860F7CBDCF0BDC1378685AD43B /* ShortcutRecorder.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/ShortcutRecorder/ShortcutRecorder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShortcutRecorder/ShortcutRecorder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MODULEMAP_FILE = "Target Support Files/ShortcutRecorder/ShortcutRecorder.modulemap";
+				PRODUCT_MODULE_NAME = ShortcutRecorder;
+				PRODUCT_NAME = ShortcutRecorder;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B72C82A579AB7D598BFD12E0127723D /* Build configuration list for PBXNativeTarget "Pods-Pomodoro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DA6D5AC25E081EC87B23C39C3F5E8D0 /* Debug */,
+				55F73FE9D0912D6D36FF3CD6AB723A78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				310A794BFA9E83567374B68AAF84BFB1 /* Debug */,
+				2360D47C0DFB9B87D8F9B21537D8FADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9ADD06B828F68C6013753DDA159ECA35 /* Build configuration list for PBXNativeTarget "ShortcutRecorder-ShortcutRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55303D983DADC41AE3DF6C3B91201BBF /* Debug */,
+				19A0B28512B35F9F8B9831A358E4D57B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF1C3099122E93D6880A6BED8705FB3E /* Build configuration list for PBXNativeTarget "ShortcutRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9E76C6A715B79390B24D68353D7160 /* Debug */,
+				7BFB3F413F55CC9DC822D35DE04AE615 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
