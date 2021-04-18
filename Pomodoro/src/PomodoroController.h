@@ -29,7 +29,6 @@
 @class AboutController;
 @class StatsController;
 @class SplashController;
-@class GrowlNotifier;
 @class PTHotKey;
 @class Scripter;
 @class PomodoroNotifier;
@@ -58,7 +57,6 @@
 	IBOutlet NSMenuItem* __unsafe_unretained internalInterruptPomodoro;
 	IBOutlet NSMenuItem* __unsafe_unretained invalidatePomodoro;
 	IBOutlet NSMenuItem* __unsafe_unretained resumePomodoro;
-	IBOutlet GrowlNotifier* __unsafe_unretained growl;
 	IBOutlet Pomodoro* __unsafe_unretained pomodoro;
     NSInteger longBreakCounter;
     NSTimer* longBreakCheckerTimer;
@@ -97,7 +95,6 @@
 @property (unsafe_unretained) IBOutlet NSComboBox* longBreakResetComboTime;
 @property (unsafe_unretained) IBOutlet NSComboBox* pomodorosForLong;
 
-@property (unsafe_unretained) IBOutlet GrowlNotifier* growl;
 @property (unsafe_unretained) IBOutlet Pomodoro* pomodoro;
 @property (nonatomic, assign) NSInteger longBreakCounter;
 @property (nonatomic) NSTimer* longBreakCheckerTimer;

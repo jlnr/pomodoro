@@ -21,7 +21,6 @@ Retired Developers:
 License
 -------
 This code is released under BSD license (see License.txt for details) and contains other OSS BSD licensed code:
-Growl framework: http://growl.info/
 BGHud Appkit: http://code.google.com/p/bghudappkit/
 
 This software contains Waffle Software licensed code:

@@ -24,7 +24,6 @@
 // SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #import "PomodoroController.h"
-#import "GrowlNotifier.h"
 #import "Pomodoro.h"
 #import "Binder.h"
 #import "PomodoroDefaults.h"
@@ -39,7 +38,7 @@
 @implementation PomodoroController
 
 @synthesize startPomodoro, finishPomodoro, invalidatePomodoro, interruptPomodoro, internalInterruptPomodoro, resumePomodoro;
-@synthesize growl, pomodoro, longBreakCounter, longBreakCheckerTimer;
+@synthesize pomodoro, longBreakCounter, longBreakCheckerTimer;
 @synthesize prefs, scriptPanel, namePanel, breakCombo, initialTimeCombo, interruptCombo, longBreakCombo, longBreakResetComboTime, pomodorosForLong;
 @synthesize pomodoroMenu, tabView, toolBar;
 
@@ -225,20 +224,7 @@
 }
 
 - (IBAction) quickStats:(id)sender {
-    
-    NSInteger time = pomodoro.time;	
-	NSString* quickStats = [NSString stringWithFormat:NSLocalizedString(@"QuickStatistics",@"Quick statistic format string"), 
-							_pomodoroName, time/60, time%60, 
-							pomodoro.externallyInterrupted, pomodoro.internallyInterrupted, pomodoro.resumed,
-							_globalPomodoroStarted, _globalPomodoroDone, _globalPomodoroReset,
-							_dailyPomodoroStarted, _dailyPomodoroDone, _dailyPomodoroReset,
-							_globalExternalInterruptions, _globalInternalInterruptions, _globalPomodoroResumed,
-							_dailyExternalInterruptions, _dailyInternalInterruptions, _dailyPomodoroResumed,
-                            _pomodorosForLong - (longBreakCounter % _pomodorosForLong)
-							];
-	
-	[growl growlAlert:quickStats title:NSLocalizedString(@"Quick Statistics",@"Growl header for quick statistics")];
-    
+    // No-op after removal of Growl
 }
 
 -(IBAction)quit:(id)sender {	
